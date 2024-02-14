@@ -12,7 +12,7 @@ const app = createApp(App);
 app.use(createPinia());
 app.use(router);
 app.use(VueCesium, {
-  cesiumPath: '../node_modules/cesium/Build/Cesium/Cesium.js'
+  cesiumPath: 'https://unpkg.com/cesium@1.106.0/Build/Cesium/Cesium.js'
 });
 
 app.mount('#app');
